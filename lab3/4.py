@@ -1,0 +1,7 @@
+poezd = input()
+spisk = poezd.split(";")
+price=float(spisk[4])
+print(f"Поезд: {spisk[0]}")
+print(f"Маршрут: {spisk[1]} - {spisk[2]}")
+print(f"Отправление: {spisk[3]}")
+print(f"Цена: {price:.2f}руб")

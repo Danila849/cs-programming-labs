@@ -1,0 +1,6 @@
+text=input()
+tex=text.split()
+fam = tex[0].capitalize()
+ima = tex[1][0].upper()
+otches = tex[2][0].upper()
+print(f"{fam} {ima}.{otches}.")

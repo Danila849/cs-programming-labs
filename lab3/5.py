@@ -1,0 +1,7 @@
+text = input()
+dlin=len(text)
+print(f"Длина: {dlin}")
+print(f"Только буквы: {text.isalpha()}")
+print(f"Только цифры: {text.isdigit()}")
+print(f"Буквенно-цифровая: {text.isalnum()}")
+print(f"Содержит дефис: {"-" in text}")

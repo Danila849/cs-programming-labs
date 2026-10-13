@@ -1,0 +1,5 @@
+text = str(input())
+print(f"Категория:{text[:3:]}")
+print(f"Год:{text[4:8:]}")
+print(f"Номер:{text[9:13:]}")
+print(f"Обратный номер:{text[-1:8:-1]}")
